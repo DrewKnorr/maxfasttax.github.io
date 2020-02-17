@@ -1,0 +1,22 @@
+.service-items{
+    .service-item{
+        height:100vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color:tan;
+        padding:10px;
+        margin:10vh;
+        h1{
+            font-weight: 900;
+            font-size:45px;
+        }
+        p{
+            font-weight: 900;
+            font-size:25px;
+        }
+
+
+    }
+}

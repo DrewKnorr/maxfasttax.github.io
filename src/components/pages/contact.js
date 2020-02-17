@@ -17,17 +17,17 @@ export default class Contact extends Component{
                     <form className="contact-form">
                         <div className="form-item">
                             <label>First Name: </label>
-                            <input name='' value=''/>
+                            <input className='form-input' name='' value=''/>
                         </div>
                         
                         <div className="form-item">
                             <label>Last Name: </label>
-                            <input name='' value=''/>
+                            <input className='form-input' name='' value=''/>
                         </div>
                         
                         <div className="form-item">
                             <label>Email: </label>
-                            <input name='' value=''/>
+                            <input className='form-input' name='' value=''/>
                         </div>
                         
                         <div className="form-item">
@@ -35,19 +35,19 @@ export default class Contact extends Component{
                             <div className="form-radio">
                                 <div className="radio-btn">
                                     <label>Tax Preparation & Planning</label>
-                                    <input type='radio' name='request_type'/>
+                                    <input type='radio' id='request_type'/>
                                 </div>
                                 <div className="radio-btn">
                                     <label>Financial Statements</label>
-                                    <input type='radio' name='request_type'/>
+                                    <input type='radio' id='request_type'/>
                                 </div>
                                 <div className="radio-btn">
                                     <label>Payroll Services</label>
-                                    <input type='radio' name='request_type'/>
+                                    <input type='radio' id='request_type'/>
                                 </div>
                                 <div className="radio-btn">
                                     <label>Bookkeeping/Write-Up </label>
-                                    <input type='radio' name='request_type'/>
+                                    <input type='radio' id='request_type'/>
                                 </div>
                                 
                                 
@@ -56,10 +56,10 @@ export default class Contact extends Component{
                         
                         <div className="form-item">
                             <label>Extra Information:</label>
-                            <input name='' value=''/>
+                            <input id='extra-info-inpt' value=''/>
                         </div>
                         <div className="form-item">
-                            <button>Submit</button>
+                            <button id='submit-id'>Submit</button>
                         </div>
 
                     </form>

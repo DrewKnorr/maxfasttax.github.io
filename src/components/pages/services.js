@@ -12,9 +12,9 @@ export default class Services extends Component{
     }
     render(){
         return(
-            <div className="title-bar">
-                <div className="home-item">
-                    <h1>HOME PAGE 1</h1>
+            <div className="service-items">
+                <div className="service-item">
+                    <h1>Service Item One</h1>
                     <p>
                         Big Tuna is a super ambitious guy, you know? Cut your throat to get ahead kind of guy, but I mean I'm not threatened by him. I went to Cornell, you ever heard of it. I graduated in four years. I never studied once. I was drunk the whole time, and I sang in the acappella group, 'Here Comes Treble.'
     
@@ -23,8 +23,8 @@ export default class Services extends Component{
                         I'm a deer hunter. I go all the time with my dad. One thing about deer: they have very good vision. One thing about me: I'm better at hiding, than they are at vision.
                     </p>
                 </div>
-                <div className="home-item">
-                    <h1>HOME PAGE 2</h1>
+                <div className="service-item">
+                    <h1>Service Item Two</h1>
                     <p>
                         First rule in road-side beet sales, put the most attractive beets on top. The ones that make you pull the car over and go, 'Wow. I need this beet right now.' Those are the money beets.
                         
@@ -33,8 +33,8 @@ export default class Services extends Component{
                         Oscar visited Mexico when he was five to attend his great-grandmothers funeral. What does that mean to the United States law enforcement officer? He's a potential drug mule.                   
                     </p>
                 </div>
-                <div className="home-item">
-                    <h1>HOME PAGE 3</h1>
+                <div className="service-item">
+                    <h1>Service Item 3</h1>
                     <p>
                         I don't have a ton of contact with the Scranton branch, but before I left I took a box of Dwight's stationary. So, from time to time I send Dwight faxes. From himself. From the future.
     
@@ -43,8 +43,8 @@ export default class Services extends Component{
                         The new receptionist is also named Kelly. So Kelly Kapour has decided to hover around my desk so that she can run into Charles' office every time he calls for Kelly. She thinks that if she says 'you wanted me' enough he will in fact want her. It's not the worst plan shes ever had.
                     </p>
                 </div>
-                <div className="home-item">
-                    <h1>HOME PAGE 4</h1>
+                <div className="service-item">
+                    <h1>Service Item 4</h1>
                     <p>
                         I begged Dwight and Jim to give me Erin for Secret Santa. And I decided to give Erin the 12 days of Christmas. Is it my fault that the first eight days is basically 30 birds?
     

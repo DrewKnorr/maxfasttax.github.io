@@ -1,20 +1,51 @@
 .contact-wrapper{
-    height:85vh;
-    width:55vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10vh;
+    height:75.75vh;
+    width:100vw;
+    overflow: hidden;
     .contact-item{
+        margin-top:10vh;
+        height:95vh;
+        width:55vw;
         .contact-form{
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             background-color:white;
             border:1px solid black;
             padding:25px;
+            height:75vh;
+            overflow:scroll;
             .form-item{
                 margin:5px 0px 5px 0px;
                 display:flex;
                 flex-direction: column;
+                #extra-info-inpt{
+                    height:20vh;
+                }
                 label{
-                    font-size:15px;
+                    font-size:20px;
+                }
+                #submit-id{
+                    height:5vh;
+                    width:200px;
+                    margin-left:80%;
+                }
+                #request_type{
+                    transition:.1s ease-in-out;
+                    &:active{
+                        border:1px solid gold;
+                    }
+                }
+                .form-input{
+                    &:focus{
+                        border:1px solid gold;
+                        box-shadow: 0px 0px 5px 0px rgba(223,255,61,1);
+                    }
+                    
                 }
                 .form-radio{
                     .radio-btn{

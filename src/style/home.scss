@@ -1,0 +1,41 @@
+.title-bar{
+    scroll-behavior: smooth;
+    #first{
+        background-color:transparent;
+        display:flex;
+        flex-direction: column;
+        margin-top:25vh;
+        align-items: center;
+        font-size:30px;
+        color:Black;
+
+        h2{
+            background-color:whitesmoke;
+            padding:25px 50px 25px 50px;
+            border:none;
+            width:25vw;
+            text-align:center;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+    }
+    .home-item{
+        width:100vw;
+        height:100vh;
+        background-color:white;
+        #down-chevron{
+            margin-top:32vh;
+            font-size:85px;
+            font-weight:900;
+            color:white;
+            background-color:transparent;
+            border:none;
+            opacity: .15;
+            transition: 1s ease-in-out;
+            &:hover{
+                margin-top:30vh;
+                font-size:100px;
+                opacity: 1;
+            }
+        }
+    }
+}

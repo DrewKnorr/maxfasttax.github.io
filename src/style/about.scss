@@ -1,0 +1,20 @@
+.about-content{
+    .about-item{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:85vh;
+        .profile-img{
+            background-image: url('../../static/assets/images/home/profile.jpg');
+            height:600px;
+            width:600px;
+            background-repeat: no-repeat;
+        }
+        p{
+            width:500px;
+            font-size:20px;
+            padding:15px;
+            background-color:lightblue
+        }
+    }
+}

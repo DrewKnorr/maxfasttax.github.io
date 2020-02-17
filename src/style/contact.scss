@@ -1,0 +1,32 @@
+.contact-wrapper{
+    height:85vh;
+    width:55vw;
+    .contact-item{
+        .contact-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color:white;
+            border:1px solid black;
+            padding:25px;
+            .form-item{
+                margin:5px 0px 5px 0px;
+                display:flex;
+                flex-direction: column;
+                label{
+                    font-size:15px;
+                }
+                .form-radio{
+                    .radio-btn{
+                        display:flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-self: center;
+                        width:150px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

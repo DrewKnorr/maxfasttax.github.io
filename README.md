@@ -1,5 +1,15 @@
-# React/Redux/Router Starter Project
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>Max Fast Tax</title>
+</head>
 
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
+<body>
+  <div class="app-wrapper"></div>
+</body>
 
-*Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*
+</html>
